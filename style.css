@@ -1,0 +1,74 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 12px;
+    text-shadow: 0 0 2px black;
+}
+
+.bg {
+    background-image: url("./bg.jpg");
+    /* Photo by JESHOOTS.com from Pexels: https://www.pexels.com/photo/man-holding-remote-control-1040160/ */
+    background-size: cover;
+    filter: blur(1px) brightness(50%);
+    width: 110vw;
+    height: 150vh;
+    position: fixed;
+    top: -30%;
+    left: -5%;
+    z-index: -1;
+}
+
+.hero {
+    text-align: center;
+    color: rgb(214, 214, 214);
+    padding: 2% 25% 0% 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 4px black;
+}
+
+.logo {
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    color:  rgb(98, 79, 150);
+}
+
+.sign-in-button {
+    border: none;
+    border-radius: 12px;
+    height: 32px;
+    width: 96px;
+}
+
+.email-input {
+    margin-right: 0px;
+    width: 320px;
+    padding: 12px;
+}
+
+.submit-button{
+    margin-left: -7px;
+    
+}
+
+.email-input, .submit-button{
+    box-sizing: border-box;
+    height: 48px;
+    border: none;
+}
+
+.submit-button, .sign-in-button{
+    background-color: rgb(39, 15, 107);
+    color: white;
+}
+
+.submit-button:hover, .sign-in-button:hover{
+    background-color: rgb(101, 54, 119);
+}
+
+.submit-button:active, .sign-in-button:active{
+    background-color: rgb(100, 100, 100);
+    color: rgb(151, 151, 151);
+}
